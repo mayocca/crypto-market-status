@@ -3,7 +3,7 @@
  */
 
 const app = require('./app.js');
-const debug = require('debug')('rather-challenge:server');
+const debug = require('debug')('crypto-market-status:server');
 const http = require('http');
 
 /**

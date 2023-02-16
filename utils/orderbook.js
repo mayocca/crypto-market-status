@@ -1,4 +1,4 @@
-const debug = require('debug')('rather-challenge:orderbook-service');
+const debug = require('debug')('crypto-market-status:orderbook-service');
 const WebSocket = require('ws');
 
 const ws = new WebSocket('wss://api-pub.bitfinex.com/ws/2');
